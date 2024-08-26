@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import pandas as pd
 
 # Load the movie list and similarity matrix
 movies = pickle.load(open("movies_list.pkl", "rb"))
